@@ -1,13 +1,11 @@
 import './Dino.dart';
 
 main(List<String> args) {
-  Dino dino1 = Dino("blaah", "dino", 750);
-  dino1.printDino("hello", 15);
-  // fightDino(
-  //     dino1: Dino("Dino orangootan", 23, "velociraptor",
-  //         "Every ability you can ever think of"),
-  //     dino2: Dino(
-  //         "Dino chimp", 21, "T-rex", "Every ability you can ever think of"));
+  fightDino(
+      dino1: Dino("Dino orangootan", 23, "velociraptor",
+          "Every ability you can ever think of"),
+      dino2: Dino(
+          "Dino chimp", 21, "T-rex", "Every ability you can ever think of"));
 }
 
 // createDino(String name, int age, String type, String ability) {
